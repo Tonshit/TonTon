@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #c7a17a;
+  font-family: 'Poppins', sans-serif;
+  padding: 40px;
+}
+
+.resume {
+  max-width: 1000px;
+  margin: auto;
+  background: #f4e8dc;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+/* LEFT */
+.left {
+  padding: 40px;
+  background: linear-gradient(180deg, #f4e8dc, #f0c2a0);
+}
+
+.name {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  line-height: 1.1;
+}
+
+.name span {
+  font-weight: 800;
+}
+
+.photo {
+  margin: 30px 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100%;
+  display: block;
+}
+
+.contact p {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.role {
+  margin-top: 40px;
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+}
+
+/* RIGHT */
+.right {
+  padding: 40px;
+}
+
+section {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px dashed #333;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.date {
+  float: right;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+ul {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.6;
+}
